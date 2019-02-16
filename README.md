@@ -11,7 +11,7 @@ curl -s https://api.github.com/repos/ABalanuta/oc_opr_logs/releases/latest \
 | tr -d \" \
 | wget -i -
 
-sudo dpkg -i oc-opt-logs*.deb
+sudo dpkg -i oc-opr-logs*.deb
 
 rm oc-opt-logs_*.deb
 

@@ -13,14 +13,14 @@ curl -s https://api.github.com/repos/ABalanuta/oc_opr_logs/releases/latest \
 
 sudo dpkg -i oc-opr-logs*.deb
 
-rm oc-opt-logs_*.deb
+rm oc-opr-logs_*.deb
 
 ```
 
 
 ## Removing 
 ```bash
-dpkg --purge oc-opt-logs
+dpkg --purge oc-opr-logs
 ```
 
 
